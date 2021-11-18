@@ -30,7 +30,7 @@
 - https://developers.google.com/machine-learning/guides/rules-of-ml
 - http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/
 - https://speakerdeck.com/jakevdp/statistics-for-hackers
-- https://seeing-theory.brown.edu/basic-probability/index.html
++ [Seeing Theory](https://seeing-theory.brown.edu/basic-probability/index.html)
 - https://www.dataschool.io/
 - https://www.youtube.com/c/dataschool
 - https://www.dataschool.io/15-hours-of-expert-machine-learning-videos/

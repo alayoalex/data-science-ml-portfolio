@@ -11,7 +11,7 @@
 - Regression (Continuos values)
 
 #### Reinforcement Learning
-- System (agent) taht improve its performance based on interantions with environment. For example a `Chess Engine` where the environment is the state of the board and the reward is win.
+- System (agent) that improve its performance based on interactions with environment. For example a `Chess Engine` where the environment is the state of the board and the reward is win.
 
 #### Workflow in predictive modeling
 1. Preprocessing: Getting data into shape
@@ -19,25 +19,25 @@
     - Feature Selection
     - Dimentionality Reduction
     - Sampling
-    - Training Set and Test Set (and Validation)
+    - Training Set and Test Set (and Validation Set)
 2. Learning: Algorithm
     - Model Selection
     - Cross Validation
-    - Performance metrics
+    - Performance Metrics
     - Hyperparamenter Optimization
 3. Evaluation: Final Model
 4. Prediction
 
 * One-vs-All(OvA) technique or One-vs-Rest(OvR) is used to multi-class classification.
 
-* Convergence is one of the biggest problems of perceptron . It only converges if the two classes can pe separeted by linar hyperplane.
+* Convergence is one of the biggest problems of perceptron . It only converges if the two classes can pe separeted by a linear hyperplane.
 #
 
 ## Notes from [Course: Introduction to Data Science]
 
-Data Science: Scientific method to study data. Storage, Debugging or Cleaning, Analysis.
+*Data Science*: Scientific method to study data. Storage, Debugging or Cleaning, Analysis.
 
-Big data: Hadoop (clusters)
+`Big data`: Hadoop (clusters)
 - Storage a great amount of data
 - Process data
     1. Map Reduce (batch)
@@ -67,7 +67,7 @@ Big Data four Vs:
 
 #### Typical year of a Data Scientist
 
-1. Develop relationships wit other people in the enterprice.
+1. Develop relationships with other people in the enterprice.
 2. Evangelize a data culture inside the company.
 3. Build tools for internal usage.
 4. Build systems and features for external users.
@@ -125,11 +125,11 @@ Big Data four Vs:
 
 I think about about exploratory data analysis as having 3 interrelated stages:
 
-1. Validation or Initial Data Analysis: Do I believe data is self-consistent, that the data was collected correctly, and that data represents what I think it does? This often goes under the name of “sanity checking”. For example, if manual testing of a feature was done, can I look at the logs of that manual testing? For a feature launched on mobile devices, do my logs claim the feature exists on desktops?
+1. `Validation or Initial Data Analysis`: Do I believe data is self-consistent, that the data was collected correctly, and that data represents what I think it does? This often goes under the name of “sanity checking”. For example, if manual testing of a feature was done, can I look at the logs of that manual testing? For a feature launched on mobile devices, do my logs claim the feature exists on desktops?
 
-2. Description: What’s the objective interpretation of this data? For example, “Users do fewer queries with 7 words in them?”, “The time page load to click (given there was a click) is larger by 1%”, and “A smaller percentage of users go to the next page of results.”
+2. `Description`: What’s the objective interpretation of this data? For example, “Users do fewer queries with 7 words in them?”, “The time page load to click (given there was a click) is larger by 1%”, and “A smaller percentage of users go to the next page of results.”
 
-3. Evaluation: Given the description, does the data tell us that something good is happening for the user, for Google, for the world? For example, “Users find results faster” or “The quality of the clicks is higher.”
+3. `Evaluation`: Given the description, does the data tell us that something good is happening for the user, for Google, for the world? For example, “Users find results faster” or “The quality of the clicks is higher.”
 
 - Confirm expt/data collection setup
 - Check vital signs
