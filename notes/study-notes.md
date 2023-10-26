@@ -2,18 +2,22 @@
 
 ## Notes from [Book: Python Machine Learning by Sebastina Raschka]
 
-#### Unsupervised Learning
+### Unsupervised Learning
+
 - Clustering
 - Dimensionality reduction
 
-#### Supervised Learning
+### Supervised Learning
+
 - Classification (discrete classes)
 - Regression (Continuos values)
 
-#### Reinforcement Learning
+### Reinforcement Learning
+
 - System (agent) that improve its performance based on interactions with environment. For example a `Chess Engine` where the environment is the state of the board and the reward is win.
 
-#### Workflow in predictive modeling
+### Workflow in predictive modeling
+
 1. Preprocessing: Getting data into shape
     - Feature Extraction and Scaling
     - Feature Selection
@@ -28,23 +32,23 @@
 3. Evaluation: Final Model
 4. Prediction
 
-* One-vs-All(OvA) technique or One-vs-Rest(OvR) is used to multi-class classification.
+- One-vs-All(OvA) technique or One-vs-Rest(OvR) is used to multi-class classification.
 
-* Convergence is one of the biggest problems of perceptron . It only converges if the two classes can pe separeted by a linear hyperplane.
-#
+- Convergence is one of the biggest problems of perceptron . It only converges if the two classes can pe separeted by a linear hyperplane.
 
 ## Notes from [Course: Introduction to Data Science]
 
 *Data Science*: Scientific method to study data. Storage, Debugging or Cleaning, Analysis.
 
 `Big data`: Hadoop (clusters)
+
 - Storage a great amount of data
 - Process data
     1. Map Reduce (batch)
     2. Apache Spark (real time)
 - Clean data (R, Python)
 
-* Have data --> Make questions to data (interesting questions)
+- Have data --> Make questions to data (interesting questions)
 
 Relational Databases
 SQL, Schemas, RDBMS
@@ -56,12 +60,14 @@ EDWs are expensive, Hadoop replaces it.
 Most companies don't have a Big Data problem
 
 Big Data four Vs:
+
 - Volumen
 - Variety
 - Velocity
 - Veracity
 
-#### A Data Scientist is a person who build systems to find pattern in data.
+### A Data Scientist is a person who build systems to find pattern in data
+
 - Build a model
 - Deliver results to an user
 
@@ -73,11 +79,13 @@ Big Data four Vs:
 4. Build systems and features for external users.
 5. Build and maintain ETL engineer systems.
 
-#### Tools:
+### Tools
+
 - Math: Statitics. Machine learning. Optimization. Linear Algebra.
 - Engineer: Python, R, Scala, Cloud.
 
-## Typical Workflow
+### Typical Workflow
+
 1. Ask a question
 2. Gather data
 3. Clean data
@@ -87,27 +95,25 @@ Big Data four Vs:
 7. Publish results
 8. Automatize. Make that machines do everything
 
-#
-
 ## Notes from [Article: Practical advice for analysis of large, complex data sets](https://www.unofficialgoogledatascience.com/2016/10/practical-advice-for-analysis-of-large.html)
 
-#### Data Science daily work
+### Data Science daily work
 
 1. Make sense of confusing results
 2. Measure new phenomena from logged behavior
 3. Validate analysis done by others
 4. Interpretate metrics of user behavior
 
-#### Data Analysts must be:
+#### Data Analysts must be
 
 - Carefull
 - Methodical
 
-#### The advice is organized into three general areas:
+#### The advice is organized into three general areas
 
-* `Technical`: Ideas and techniques for how to manipulate and examine your data.
-* `Process`: Recommendations on how you approach your data, what questions to ask, and what things to check.
-* `Social`: How to work with others and communicate about your data and insights.
+- `Technical`: Ideas and techniques for how to manipulate and examine your data.
+- `Process`: Recommendations on how you approach your data, what questions to ask, and what things to check.
+- `Social`: How to work with others and communicate about your data and insights.
 
 #### `Technical`
 
@@ -154,8 +160,6 @@ I think about about exploratory data analysis as having 3 interrelated stages:
 
 No short list of advice can be complete even when we break through the barrier of the Top 10 List format (for those of you who weren’t counting, there are 24 here). As you apply these ideas to real problems, you’ll find the habits and techniques that are most important in your domain, the tools that help you do those analyses quickly and correctly, and the advice you wish were on this list. Make sure you share what you’ve learned so we can all be better data scientists.
 
-# 
-
 ## Notes from [Article: Key Metrics for Data Science Team Success](https://towardsdatascience.com/key-metrics-for-data-science-team-success-822da77f509c)
 
 How data science team leaders can measure team performance and demonstrate success for the C-suite.
@@ -164,15 +168,15 @@ A recent survey from Wakefield Research found that 71% of data executives say th
 
 But a good data science program can take months or years to get a flywheel of innovation cranking away — so how do you show consistent results each quarter to demonstrate you’re not only discovering useful insights today, you’re also building an analytics machine that will add value for many years?
 
-#### `Demonstrate velocity`
+### `Demonstrate velocity`
 
 Make your process repeatable and trackable in important to building a high-velocity data team. Leaders need to take a systematic approach to managing data science.
 
-#### `Deliver ROI`
+### `Deliver ROI`
 
 Many executive stops data sciecne program if maodel fail or cut back investment if adata model fails.
 
-#### `Grow your team`
+### `Grow your team`
 
 Recruitment and retention will be ongoin issues, and if you want to build a fundation for significant result, yu need a strong, consistent team.
 
@@ -180,15 +184,13 @@ Recruitment and retention will be ongoin issues, and if you want to build a fund
 
 If you build a program that continues to accelerate with repeatable processes and reusable assets, keeps the C-suite informed and understanding of the big picture, and helps your team feel integrated and effective, then you can build a team that will make a major impact and deliver significant, measurable, results.
 
-#
-
 ## Notes from [Article: The First Rule of Machine Learning: Start without Machine Learning](https://eugeneyan.com/writing/first-rule-of-ml/)
 
-Applying machine learning effectively is tricky. 
+Applying machine learning effectively is tricky
 
-- You need data. 
-- You need a robust pipeline to support your data flows. 
-- And most of all, you need high-quality labels. 
+- You need data.
+- You need a robust pipeline to support your data flows.
+- And most of all, you need high-quality labels.
 
 As a result, most of the time, my first iteration doesn’t involve machine learning at all.
 
@@ -198,7 +200,7 @@ Rule #1: [Don’t be afraid to launch a product without machine learning](https:
 
 I’d first try really hard to see if I could solve it without machine learning :D. I’m all about trying the less glamorous, easy stuff first before moving on to any more complicated solutions. — [Vicki Boykis, ML Engineer @ Tumblr](https://applyingml.com/mentors/vicki-boykis/#imagine-youre-given-a-new-unfamiliar-problem-to-solve-with-machine-learning-how-would-you-approach-it)
 
-#### What should we start with then?
+### What should we start with then?
 
 Regardless of whether you’re using simple rules or deep learning, it helps to have a decent understanding of the data. Thus, grab a sample of the data to run some statistics and visualize! (Note: This mainly applies to tabular data. Other data such as images, text, audio, etc. can be tricker to run aggregate statistics on.)
 
@@ -222,13 +224,11 @@ Rule #3: Choose machine learning over a complex heuristic.
 
 `A simple heuristic can get your product out the door. A complex heuristic is unmaintainable. Once you have data and a basic idea of what you are trying to accomplish, move on to machine learning… and you will find that the machine­-learned model is easier to update and maintain.`
 
-Having robust data pipelines and high-quality data labels also suggests you’re ready for machine learning. 
+Having robust data pipelines and high-quality data labels also suggests you’re ready for machine learning.
 
 #### But what if I need to use ML, just for the sake of it?
 
 Hmm, that’s a tough position to be in. How do you balance solving the problem and serving customers, vs. wasting a ton of time and effort just for the sake of it? I don’t have an answer to that, but I’ll leave you with this genius tip from Brandon Rohrer.
-
-#
 
 ## Notes from [Article: The Data Science Interview Process at Shopee Singapore](https://towardsdatascience.com/the-lessons-i-learned-from-failing-the-job-interviews-at-shopee-singapore-dd24b9f2bf3d)
 
@@ -244,6 +244,3 @@ What I did to deploy the model
 How did I do error analysis and how did I improve the models
 What was the end-user feedback like
 What I did to design my MLOps
-
-
-#

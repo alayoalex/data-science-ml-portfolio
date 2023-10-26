@@ -1,14 +1,12 @@
 # Havard CS109 Data Science Course
 
-## Five key facets of an investigation: 
+## Five key facets of an investigation:
 
 1. `Data wrangling`, cleaning, and sampling to get a suitable data set
 2. `Data management` to be able to access big data quickly and reliably
 3. `Exploratory data analysis` to generate hypotheses and intuition
 4. `Prediction` based on statistical methods such as regression and classification
 5. `Communication` of results through visualization, stories, and interpretable summaries
-
-#
 
 ## Some Key Principles
 
